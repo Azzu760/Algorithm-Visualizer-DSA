@@ -5,4 +5,4 @@ const nextConfig = {
     process.env.NODE_ENV === "production" ? "/Algorithm-Visualizer-DSA" : "",
 };
 
-module.exports = nextConfig;
+export default nextConfig;
