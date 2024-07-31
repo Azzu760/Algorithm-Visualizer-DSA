@@ -1,4 +1,3 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   assetPrefix:
     process.env.NODE_ENV === "production" ? "/Algorithm-Visualizer-DSA/" : "",
@@ -6,4 +5,4 @@ const nextConfig = {
     process.env.NODE_ENV === "production" ? "/Algorithm-Visualizer-DSA" : "",
 };
 
-export default nextConfig;
+module.exports = nextConfig;
