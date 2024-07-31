@@ -1,0 +1,54 @@
+.barChartContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 400px; /* Increased height for better visualization */
+  width: 100%;
+  background: linear-gradient(
+    135deg,
+    #f0f4f8 25%,
+    #e1e5e8 75%
+  ); /* Soft gradient background */
+  border: 1px solid #d0d0d0;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 20px; /* Adjusted padding */
+  box-sizing: border-box;
+  overflow: hidden;
+  padding-top: 50px;
+}
+
+.bar {
+  width: 80px; /* Increased width for better visual */
+  margin: 0 15px;
+  background: linear-gradient(180deg, #4caf50, #388e3c); /* Green gradient */
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.bar:hover {
+  background: linear-gradient(
+    180deg,
+    #388e3c,
+    #2c6b2f
+  ); /* Darker green on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+.barValue {
+  position: absolute;
+  bottom: 100%;
+  background: rgba(0, 0, 0, 0.75); /* Dark background for better contrast */
+  color: #fff;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 14px;
+  white-space: nowrap;
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}

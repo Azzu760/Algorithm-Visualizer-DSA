@@ -1,0 +1,25 @@
+{
+  "name": "algorithm-visualizer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "next build && next export && gh-pages -d out"
+  },
+  "dependencies": {
+    "d3": "^7.8.4",
+    "next": "^14.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-config-next": "^14.2.5",
+    "gh-pages": "^6.1.1"
+  },
+  "homepage": "https://Azzu760.github.io/Algorithm-Visualizer-DSA"
+}

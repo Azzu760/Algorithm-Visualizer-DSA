@@ -1,0 +1,39 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #e0f7fa; /* Light cyan background for a fresh look */
+  color: #333; /* Darker text color for better readability */
+  padding: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #00796b; /* Teal color for the title */
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+select {
+  border: 1px solid #00796b; /* Teal border for inputs */
+}
+
+button {
+  background-color: #004d40; /* Darker teal for buttons */
+  color: #fff; /* White text for buttons */
+}
+
+button:hover {
+  background-color: #00796b; /* Lighter teal on hover */
+}
+
+table {
+  background-color: #ffffff; /* White background for tables */
+}
+
+th {
+  background-color: #004d40; /* Dark teal for table headers */
+  color: white;
+}
