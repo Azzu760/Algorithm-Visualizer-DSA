@@ -1,0 +1,48 @@
+.container {
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(to right, #2e81df, #141bd7);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ff5722;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+}
+
+.details {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin: 20px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.backButton {
+  padding: 12px 24px;
+  background: linear-gradient(to right, #20a88a, #19e6a9);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.backButton:hover {
+  background: linear-gradient(to right, #e64a19, #ff5722);
+  transform: scale(1.05);
+}
+
+.backButton:active {
+  background: #e64a19;
+  transform: scale(0.98);
+}

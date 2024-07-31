@@ -1,0 +1,69 @@
+.container {
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(to right, #2e81df, #141bd7);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #e8eceb;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+}
+
+.inputField,
+.selectField {
+  padding: 12px;
+  width: 250px;
+  margin: 8px;
+  border: 1px solid #b2ebf2;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.inputField:focus,
+.selectField:focus {
+  outline: none;
+  border-color: #80deea;
+  box-shadow: 0 0 4px rgba(0, 188, 212, 0.5);
+}
+
+.button {
+  padding: 12px 24px;
+  background: linear-gradient(
+    to right,
+    #ff4081,
+    #f50057
+  ); /* Pink gradient for the button */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background: linear-gradient(
+    to right,
+    #f50057,
+    #c51162
+  ); /* Darker pink gradient on hover */
+  transform: scale(1.05);
+}
+
+.button:active {
+  background: #c51162; /* Solid dark pink when pressed */
+  transform: scale(0.98);
+}
