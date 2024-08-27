@@ -1,8 +1,14 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  assetPrefix:
-    process.env.NODE_ENV === "production" ? "/Algorithm-Visualizer-DSA/" : "",
-  basePath:
-    process.env.NODE_ENV === "production" ? "/Algorithm-Visualizer-DSA" : "",
+  async redirects() {
+    return [
+      {
+        source: "/index",
+        destination: "/page",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
