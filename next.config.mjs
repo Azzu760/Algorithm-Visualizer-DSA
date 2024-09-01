@@ -3,7 +3,7 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: "/index",
+        source: "/",
         destination: "/page",
         permanent: true,
       },
